@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectOption matches snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  min-height: 32px;
+  padding-left: 16px;
+  padding-right: 32px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.c0:hover {
+  background-color: rgba(131,76,196,0.1);
+}
+
+.c0:hover div {
+  color: rgb(56,39,176);
+}
+
+.c0:hover span {
+  color: rgb(56,39,176);
+}
+
+.c1 {
+  font-family: Ubuntu,sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.43;
+  color: rgb(53,44,75);
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width:768px) {
+  .c1 {
+    font-size: 13px;
+    line-height: 1.54;
+  }
+}
+
+<div
+    class="c0"
+    data-testid="__select-option__"
+  >
+    <div
+      class="c1"
+    />
+  </div>
+</DocumentFragment>
+`;

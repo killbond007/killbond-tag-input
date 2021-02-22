@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectBox matches snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c1 {
+  font-family: Ubuntu,sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.43;
+  color: rgb(56,39,176);
+  box-shadow: 1px 1px 0 0 rgba(197,208,222,0.4);
+  width: auto;
+  border-radius: 3px;
+  min-height: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 4px 16px;
+  text-align: left;
+  background-color: rgb(255,255,255);
+  border: 1px solid rgb(197,208,222);
+  border-bottom-color: rgb(197,208,222);
+}
+
+.c1:focus {
+  border-radius: 3px;
+  border: 1px #834cc4 solid;
+}
+
+.c3 {
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  margin-top: 6px;
+  margin-bottom: 0;
+  border-color: rgb(56,39,176) transparent transparent transparent;
+}
+
+.c2 {
+  font-family: Ubuntu,sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.43;
+  color: rgb(53,44,75);
+}
+
+@media (max-width:768px) {
+  .c1 {
+    font-size: 13px;
+    line-height: 1.54;
+  }
+}
+
+@media (max-width:768px) {
+  .c2 {
+    font-size: 13px;
+    line-height: 1.54;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <button
+      class="c1"
+      data-testid="__select-box__"
+      width="auto"
+    >
+      <span
+        class="c2"
+      />
+      <div
+        class="c3"
+      />
+    </button>
+  </div>
+</DocumentFragment>
+`;
